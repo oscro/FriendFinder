@@ -289,7 +289,7 @@
 
       // If all required fields are filled
       if (validateForm()) {
-        // Create an object for the user"s data
+        // Creates an object that inputs User Data
         var friends = {
           name: $('#name').val(),
           photo: $('#photo').val(),
@@ -333,7 +333,7 @@
           displayMatch(friends, userChoices);
         });
       } else {
-        alert('Please fill out all fields before submitting!');
+        alert('Please fill out all fields!');
       }
     });
 
